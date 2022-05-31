@@ -1,0 +1,70 @@
+.header-wrapperis {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: lightblue;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.hd-antras-wrappers-cw {
+    display: flex;
+    text-align: right;
+    
+}
+.antras-cw-wrappers {
+    justify-content: center;
+    width: 30%;
+}
+.pirmas-cw {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.antras-cw-antras-wrapperis {
+    display: flex;
+    justify-content:center ;
+}
+
+.antras-cw-pirmas {
+    align-items: center;
+    padding-left: 10px;
+}
+
+.antras-cw {
+    display: block;
+    text-align: center;
+}
+
+.antras-cw-pirmas {
+    display: block;
+    flex-direction: row;
+}
+
+.trecias-cw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trecias-cw-pirmas {
+    border: solid rgb(78, 78, 236);
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    margin:10px;
+}
+
+.trecias-cw-antras {
+    border: solid rgb(78, 78, 236);
+    border-radius: 3px;
+    margin:10px;
+
+}
+
+.skirtukas {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
