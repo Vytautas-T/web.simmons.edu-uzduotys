@@ -2,16 +2,18 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    background-color: lightblue;
+    background-color: rgb(5, 164, 218);
     width: 100%;
     flex-grow: 1;
+    color: white;
 }
 
 .hd-antras-wrappers-cw {
     display: flex;
-    text-align: right;
-    
+    justify-content: center;
+    align-items: center;
 }
+
 .antras-cw-wrappers {
     justify-content: center;
     width: 30%;
@@ -21,6 +23,11 @@
     align-items: center;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.pirmas-cw-border {
+    border-left: 1px solid white;
+    height: 30px;
 }
 
 .antras-cw-antras-wrapperis {
@@ -48,16 +55,17 @@
     justify-content: center;
     align-items: center;
 }
+
 .trecias-cw-pirmas {
-    border: solid rgb(78, 78, 236);
+    border: solid rgb(167, 167, 252);
     border-radius: 3px;
-    padding: 10px 20px 10px 20px;
-    margin:10px;
+    padding: 10px 30px 10px 30px;
 }
 
 .trecias-cw-antras {
-    border: solid rgb(78, 78, 236);
+    border: solid rgb(167, 167, 252);
     border-radius: 3px;
+    padding: 10px 20px 10px 20px;
     margin:10px;
 
 }
@@ -67,4 +75,22 @@
     width: 10px;
     height: 10px;
     background-color: white;
+}
+
+.nav-wrappers {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.juostos-mygtukai {
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgb(69, 69, 136);
+    padding: 20px;
+    width: 20%;
+    height: 20px;
+}
+.juostos-mygtukai:hover {
+    background-color: rgb(45, 45, 88);
 }
