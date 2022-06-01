@@ -94,3 +94,9 @@
 .juostos-mygtukai:hover {
     background-color: rgb(45, 45, 88);
 }
+
+.paveiksliukas {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
