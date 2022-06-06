@@ -262,3 +262,40 @@ div > p {
     color: rgb(51, 168, 207);
 
 }
+
+/*table, th, td {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 700px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 82, 88);
+    align-items: stretch;
+    margin-top: -30px;
+}
+
+.footer-tb {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.order {
+    display: flex;
+    order: 4;
+}
+
+div.footer-tb > h1 {
+    font-size: 30px;
+}
