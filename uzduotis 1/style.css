@@ -169,3 +169,96 @@
     width: 60%;
 
 }
+
+.stulpelio-wrapperis {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.stulpeliai {
+    width: 30%;
+    background-color: rgb(218, 232, 236);
+    height: 300px;
+    padding: 5px;
+}
+
+div > p {
+    font-size: 30px;
+}
+
+.stulpeliai2-wrapperis {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.stulpeliai1 {
+    justify-content: space-around;
+    text-align: center;
+    background-color: blueviolet;
+    height: 300px;
+    padding: 5px;
+    width: 30%;
+    color: white;
+}
+
+.stulpeliai2 {
+    justify-content: space-around;
+    text-align: center;
+    background-color: blue;
+    height: 300px;
+    padding: 5px;
+    width: 30%;
+    color: white;
+}
+
+.stulpeliai3 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 5px;
+    width: 30%;
+}
+
+.stulpeliai-h2 {
+    margin: 60px;
+}
+
+.dienos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:rgb(131, 201, 224);
+    font-size: 14px;
+}
+
+.d2 {
+    border: 1px solid rgb(109, 236, 109);
+    border-radius: 10px;
+    text-align: center;
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(109, 236, 109);
+    padding: 5px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.nav-mygtukiai {
+    display: flex;
+    border: 1px solid rgb(51, 168, 207);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 23%;
+    height: 50px;
+    color: rgb(51, 168, 207);
+
+}
